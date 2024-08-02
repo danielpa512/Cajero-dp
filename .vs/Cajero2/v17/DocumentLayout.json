@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\APRENDIZ\\Desktop\\Cajero2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC82D735-5861-42DA-9F6A-DEA7B816BCD7}|cajero\\cajero.csproj|c:\\users\\aprendiz\\desktop\\cajero2\\cajero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC82D735-5861-42DA-9F6A-DEA7B816BCD7}|cajero\\cajero.csproj|solutionrelative:cajero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\APRENDIZ\\Desktop\\Cajero2\\cajero\\Program.cs",
+              "RelativeDocumentMoniker": "cajero\\Program.cs",
+              "ToolTip": "C:\\Users\\APRENDIZ\\Desktop\\Cajero2\\cajero\\Program.cs",
+              "RelativeToolTip": "cajero\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T20:49:09.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
