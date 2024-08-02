@@ -53,7 +53,7 @@ namespace ATM
             }
             else
             {
-                Console.WriteLine("Saldo insuficiente.");
+                Console.WriteLine("Saldo insuficientes.");
             }
         }
         static void ConsultarSaldo()
