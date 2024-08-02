@@ -60,3 +60,21 @@ namespace ATM
         {
             Console.WriteLine($"Tu saldo actual es {saldo:C}.");
         }
+        static void Transferir()
+        {
+            Console.Write("Ingrese la cantidad a transferir: ");
+            decimal cantidad = Convert.ToDecimal(Console.ReadLine());
+            Console.Write("Ingrese el número de cuenta destinatario: ");
+            string cuentaDestinatario = Console.ReadLine();
+            if (cantidad <= saldo)
+            {
+                saldo -= cantidad;
+                Console.WriteLine($"Has transferido {cantidad:C} a la cuenta {cuentaDestinatario}. Tu saldo actual es {saldo:C}.");
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente.");
+            }
+        }
+    }
+}
