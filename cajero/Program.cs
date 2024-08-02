@@ -35,3 +35,10 @@ namespace ATM
             string inputPassword = Console.ReadLine();
             return inputUsername == username && inputPassword == password;
         }
+        static void Depositar()
+        {
+            Console.Write("Ingrese la cantidad a depositar: ");
+            decimal cantidad = Convert.ToDecimal(Console.ReadLine());
+            saldo += cantidad;
+            Console.WriteLine($"Has depositado {cantidad:C}. Tu saldo actual es {saldo:C}.");
+        }
