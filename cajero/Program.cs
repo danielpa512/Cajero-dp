@@ -27,14 +27,6 @@ namespace ATM
                 Console.WriteLine("Inicio de sesión fallido");
             }
         }
-        static bool Login()
-        {
-            Console.Write("Ingrese su usuario : ");
-            string inputUsername = Console.ReadLine();
-            Console.Write("Ingrese su contraseña:: ");
-            string inputPassword = Console.ReadLine();
-            return inputUsername == username && inputPassword == password;
-        }
         static void Depositar()
         {
             Console.Write("Ingrese la cantidad a depositar: ");
