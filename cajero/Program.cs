@@ -42,3 +42,17 @@ namespace ATM
             saldo += cantidad;
             Console.WriteLine($"Has depositado {cantidad:C}. Tu saldo actual es {saldo:C}.");
         }
+        static void Retirar()
+        {
+            Console.Write("Ingrese la cantidad a retirar: ");
+            decimal cantidad = Convert.ToDecimal(Console.ReadLine());
+            if (cantidad <= saldo)
+            {
+                saldo -= cantidad;
+                Console.WriteLine($"Has retirado {cantidad:C}. Tu saldo actual es {saldo:C}.");
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente.");
+            }
+        }
